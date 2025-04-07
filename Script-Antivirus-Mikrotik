@@ -53,5 +53,3 @@ add chain=virus protocol=tcp dst-port=34555 action=drop comment="Trinoo"
 disabled=no
 add chain=virus protocol=tcp dst-port=35555 action=drop comment="Trinoo"
 disabled=no
-
-
