@@ -29,27 +29,15 @@ add chain=virus protocol=tcp dst-port=12345 action=drop comment="Drop NetBus"
 add chain=virus protocol=tcp dst-port=17300 action=drop comment="Drop Kuang2"
 add chain=virus protocol=tcp dst-port=27374 action=drop comment="Drop SubSeven"
 add chain=virus protocol=tcp dst-port=65506 action=drop comment="Drop PhatBot,Agobot,Gaobot"
-add chain=virus protocol=udp dst-port=12667 action=drop comment="Trinoo"
-disabled=no
-add chain=virus protocol=udp dst-port=27665 action=drop comment="Trinoo"
-disabled=no
-add chain=virus protocol=udp dst-port=31335 action=drop comment="Trinoo"
-disabled=no
-add chain=virus protocol=udp dst-port=27444 action=drop comment="Trinoo"
-disabled=no
-add chain=virus protocol=udp dst-port=34555 action=drop comment="Trinoo"
-disabled=no
-add chain=virus protocol=udp dst-port=35555 action=drop comment="Trinoo"
-disabled=no
-add chain=virus protocol=tcp dst-port=27444 action=drop comment="Trinoo"
-disabled=no
-add chain=virus protocol=tcp dst-port=27665 action=drop comment="Trinoo"
-disabled=no
-add chain=virus protocol=tcp dst-port=31335 action=drop comment="Trinoo"
-disabled=no
-add chain=virus protocol=tcp dst-port=31846 action=drop comment="Trinoo"
-disabled=no
-add chain=virus protocol=tcp dst-port=34555 action=drop comment="Trinoo"
-disabled=no
-add chain=virus protocol=tcp dst-port=35555 action=drop comment="Trinoo"
-disabled=no
+add chain=virus protocol=udp dst-port=12667 action=drop comment="Trinoo" disabled=no
+add chain=virus protocol=udp dst-port=27665 action=drop comment="Trinoo" disabled=no
+add chain=virus protocol=udp dst-port=31335 action=drop comment="Trinoo" disabled=no
+add chain=virus protocol=udp dst-port=27444 action=drop comment="Trinoo" disabled=no
+add chain=virus protocol=udp dst-port=34555 action=drop comment="Trinoo" disabled=no
+add chain=virus protocol=udp dst-port=35555 action=drop comment="Trinoo" disabled=no
+add chain=virus protocol=tcp dst-port=27444 action=drop comment="Trinoo" disabled=no
+add chain=virus protocol=tcp dst-port=27665 action=drop comment="Trinoo" disabled=no
+add chain=virus protocol=tcp dst-port=31335 action=drop comment="Trinoo" disabled=no
+add chain=virus protocol=tcp dst-port=31846 action=drop comment="Trinoo" disabled=no
+add chain=virus protocol=tcp dst-port=34555 action=drop comment="Trinoo" disabled=no
+add chain=virus protocol=tcp dst-port=35555 action=drop comment="Trinoo" disabled=no
